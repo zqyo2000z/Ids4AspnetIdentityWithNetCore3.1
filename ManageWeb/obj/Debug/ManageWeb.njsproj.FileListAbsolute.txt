@@ -1,0 +1,2 @@
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\ManageWeb\obj\Debug\ManageWeb.njsprojAssemblyReference.cache
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\ManageWeb\bin\Microsoft.NodejsTools.WebRole.dll
