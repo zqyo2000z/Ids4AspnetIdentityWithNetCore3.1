@@ -1,0 +1,11 @@
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\bin\Debug\netstandard2.0\Contracts.dll
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\bin\Debug\netstandard2.0\Contracts.pdb
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.0\Common.csproj.CopyComplete
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.0\Common.pdb

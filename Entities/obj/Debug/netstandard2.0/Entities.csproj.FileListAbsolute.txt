@@ -1,0 +1,8 @@
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\obj\Debug\netstandard2.0\Entities.pdb

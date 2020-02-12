@@ -1,0 +1,9 @@
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\bin\Debug\Gateway.exe.config
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\bin\Debug\Gateway.exe
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\bin\Debug\Gateway.pdb
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.csprojAssemblyReference.cache
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.Gateway.resources
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.Properties.Resources.resources
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.csproj.GenerateResource.cache
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.exe
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.pdb
