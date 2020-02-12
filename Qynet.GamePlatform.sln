@@ -9,6 +9,10 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ManageWeb", "ManageWeb\Mana
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TenantWeb", "TenantWeb\TenantWeb.njsproj", "{F6B527CC-C969-4623-A58E-9F1FC2DC37B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageServer", "ManageServer\ManageServer.csproj", "{AB700E13-9EB9-48E9-9EB7-0DC704E7CD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantServer", "TenantServer\TenantServer.csproj", "{C93572DA-BB76-4100-936C-38973F18E87B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{F6B527CC-C969-4623-A58E-9F1FC2DC37B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6B527CC-C969-4623-A58E-9F1FC2DC37B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6B527CC-C969-4623-A58E-9F1FC2DC37B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB700E13-9EB9-48E9-9EB7-0DC704E7CD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB700E13-9EB9-48E9-9EB7-0DC704E7CD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB700E13-9EB9-48E9-9EB7-0DC704E7CD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB700E13-9EB9-48E9-9EB7-0DC704E7CD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93572DA-BB76-4100-936C-38973F18E87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93572DA-BB76-4100-936C-38973F18E87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93572DA-BB76-4100-936C-38973F18E87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93572DA-BB76-4100-936C-38973F18E87B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
