@@ -45,7 +45,15 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "generator-star-spacing": "off",
+      "no-console": 0,
+      "no-inline-comments": 0,
+      "indent": [2],
+      "semi": [2, "always"],
+      "no-mixed-spaces-and-tabs": [0, false],
+      "space-before-function-paren": 0
+    }
   },
   "browserslist": [
     "> 1%",
