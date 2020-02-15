@@ -1,7 +1,6 @@
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Contracts\bin\Debug\netstandard2.0\Contracts.deps.json
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Contracts\bin\Debug\netstandard2.0\Contracts.dll
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Contracts\bin\Debug\netstandard2.0\Contracts.pdb
-C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Contracts\obj\Debug\netstandard2.0\Contracts.csprojAssemblyReference.cache
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Contracts\obj\Debug\netstandard2.0\Contracts.AssemblyInfoInputs.cache
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Contracts\obj\Debug\netstandard2.0\Contracts.AssemblyInfo.cs
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Contracts\obj\Debug\netstandard2.0\Contracts.dll
