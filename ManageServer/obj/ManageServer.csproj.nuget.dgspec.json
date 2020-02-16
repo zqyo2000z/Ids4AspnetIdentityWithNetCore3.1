@@ -95,7 +95,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\zhouwork\\source\\repos\\Qynet.GamePlatform\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\zhouwork\\source\\repos\\Qynet.GamePlatform\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -262,6 +266,10 @@
               "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"
             }
