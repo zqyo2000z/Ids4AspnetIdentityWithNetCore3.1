@@ -55,3 +55,4 @@ C:\Users\zhouwork\source\repos\Qynet.GamePlatform\ManageServer\bin\Debug\netcore
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\ManageServer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\ManageServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\ManageServer\obj\Debug\netcoreapp3.1\ManageServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zhouwork\source\repos\Qynet.GamePlatform\ManageServer\bin\Debug\netcoreapp3.1\Configs\nlog.config

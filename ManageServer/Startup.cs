@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -9,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NLog;
 using TenantServer.Extensions;
 
 namespace ManageServer
@@ -17,6 +19,7 @@ namespace ManageServer
     {
         public Startup(IConfiguration configuration)
         {
+            LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/configs/nlog.config"));
             Configuration = configuration;
         }
 
@@ -25,6 +28,7 @@ namespace ManageServer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services .ConfigureLoggerService();
             services.ConfigureSqlServerService(Configuration);
             services.AddControllers();
         }
