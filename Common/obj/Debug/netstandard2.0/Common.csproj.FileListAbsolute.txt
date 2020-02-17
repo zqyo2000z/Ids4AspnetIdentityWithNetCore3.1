@@ -22,3 +22,16 @@ D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Comm
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Common.csproj.CopyComplete
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Common.dll
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\多渠道兑换中心\GameGateway\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\多渠道兑换中心\GameGateway\Common\bin\Debug\netstandard2.0\Common.dll
+D:\多渠道兑换中心\GameGateway\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\多渠道兑换中心\GameGateway\Common\bin\Debug\netstandard2.0\Contracts.dll
+D:\多渠道兑换中心\GameGateway\Common\bin\Debug\netstandard2.0\Entities.dll
+D:\多渠道兑换中心\GameGateway\Common\bin\Debug\netstandard2.0\Contracts.pdb
+D:\多渠道兑换中心\GameGateway\Common\bin\Debug\netstandard2.0\Entities.pdb
+D:\多渠道兑换中心\GameGateway\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+D:\多渠道兑换中心\GameGateway\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\多渠道兑换中心\GameGateway\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\多渠道兑换中心\GameGateway\Common\obj\Debug\netstandard2.0\Common.csproj.CopyComplete
+D:\多渠道兑换中心\GameGateway\Common\obj\Debug\netstandard2.0\Common.dll
+D:\多渠道兑换中心\GameGateway\Common\obj\Debug\netstandard2.0\Common.pdb

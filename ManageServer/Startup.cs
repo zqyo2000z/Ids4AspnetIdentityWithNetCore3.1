@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using ManageServer.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +12,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using NLog;
-using TenantServer.Extensions;
 
 namespace ManageServer
 {
@@ -28,8 +28,11 @@ namespace ManageServer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services .ConfigureLoggerService();
+            services.ConfigureCors();
+            services.ConfigureSwagger();
+            services.ConfigureLoggerService();
             services.ConfigureSqlServerService(Configuration);
+            services.ConfigureRepositoryWrapper();
             services.AddControllers();
         }
 
@@ -48,6 +51,15 @@ namespace ManageServer
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            //启用中间件服务生成Swagger作为JSON终结点
+            app.UseSwagger();
+            //启用中间件服务对swagger-ui，指定Swagger JSON终结点
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "群鹰兑换系统接口文档 V1");
+                c.RoutePrefix = string.Empty; //根节点浏览Swagger
             });
         }
     }

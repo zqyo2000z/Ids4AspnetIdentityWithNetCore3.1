@@ -20,3 +20,14 @@ D:\IIS\2020-2-11\项目5(study)\GameGateway\Contracts\obj\Debug\netstandard2.0\C
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Contracts\obj\Debug\netstandard2.0\Contracts.csproj.CopyComplete
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Contracts\obj\Debug\netstandard2.0\Contracts.dll
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Contracts\obj\Debug\netstandard2.0\Contracts.pdb
+D:\多渠道兑换中心\GameGateway\Contracts\bin\Debug\netstandard2.0\Contracts.deps.json
+D:\多渠道兑换中心\GameGateway\Contracts\bin\Debug\netstandard2.0\Contracts.dll
+D:\多渠道兑换中心\GameGateway\Contracts\bin\Debug\netstandard2.0\Contracts.pdb
+D:\多渠道兑换中心\GameGateway\Contracts\bin\Debug\netstandard2.0\Entities.dll
+D:\多渠道兑换中心\GameGateway\Contracts\bin\Debug\netstandard2.0\Entities.pdb
+D:\多渠道兑换中心\GameGateway\Contracts\obj\Debug\netstandard2.0\Contracts.csprojAssemblyReference.cache
+D:\多渠道兑换中心\GameGateway\Contracts\obj\Debug\netstandard2.0\Contracts.AssemblyInfoInputs.cache
+D:\多渠道兑换中心\GameGateway\Contracts\obj\Debug\netstandard2.0\Contracts.AssemblyInfo.cs
+D:\多渠道兑换中心\GameGateway\Contracts\obj\Debug\netstandard2.0\Contracts.csproj.CopyComplete
+D:\多渠道兑换中心\GameGateway\Contracts\obj\Debug\netstandard2.0\Contracts.dll
+D:\多渠道兑换中心\GameGateway\Contracts\obj\Debug\netstandard2.0\Contracts.pdb

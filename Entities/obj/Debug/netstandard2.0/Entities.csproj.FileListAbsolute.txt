@@ -14,3 +14,11 @@ D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\obj\Debug\netstandard2.0\En
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.dll
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.pdb
+D:\多渠道兑换中心\GameGateway\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+D:\多渠道兑换中心\GameGateway\Entities\bin\Debug\netstandard2.0\Entities.dll
+D:\多渠道兑换中心\GameGateway\Entities\bin\Debug\netstandard2.0\Entities.pdb
+D:\多渠道兑换中心\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+D:\多渠道兑换中心\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+D:\多渠道兑换中心\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+D:\多渠道兑换中心\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.dll
+D:\多渠道兑换中心\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.pdb

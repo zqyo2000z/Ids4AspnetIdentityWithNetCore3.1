@@ -24,3 +24,16 @@ D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.dll
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.pdb
+D:\多渠道兑换中心\GameGateway\Repository\bin\Debug\netstandard2.0\Repository.deps.json
+D:\多渠道兑换中心\GameGateway\Repository\bin\Debug\netstandard2.0\Repository.dll
+D:\多渠道兑换中心\GameGateway\Repository\bin\Debug\netstandard2.0\Repository.pdb
+D:\多渠道兑换中心\GameGateway\Repository\bin\Debug\netstandard2.0\Contracts.dll
+D:\多渠道兑换中心\GameGateway\Repository\bin\Debug\netstandard2.0\Entities.dll
+D:\多渠道兑换中心\GameGateway\Repository\bin\Debug\netstandard2.0\Contracts.pdb
+D:\多渠道兑换中心\GameGateway\Repository\bin\Debug\netstandard2.0\Entities.pdb
+D:\多渠道兑换中心\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.csprojAssemblyReference.cache
+D:\多渠道兑换中心\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
+D:\多渠道兑换中心\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs
+D:\多渠道兑换中心\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
+D:\多渠道兑换中心\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.dll
+D:\多渠道兑换中心\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.pdb

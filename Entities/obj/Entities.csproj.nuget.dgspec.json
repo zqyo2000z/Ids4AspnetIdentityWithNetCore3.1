@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\Entities.csproj": {}
+    "D:\\多渠道兑换中心\\GameGateway\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\Entities.csproj": {
+    "D:\\多渠道兑换中心\\GameGateway\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\多渠道兑换中心\\GameGateway\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\obj\\",
+        "projectPath": "D:\\多渠道兑换中心\\GameGateway\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\zhouwork\\.nuget\\packages\\",
+        "outputPath": "D:\\多渠道兑换中心\\GameGateway\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zhouwork\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
