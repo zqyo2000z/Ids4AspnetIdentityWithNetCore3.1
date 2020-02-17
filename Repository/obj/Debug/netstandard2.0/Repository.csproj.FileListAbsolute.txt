@@ -11,3 +11,16 @@ C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Repository\obj\Debug\netstanda
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Repository\obj\Debug\netstandard2.0\Repository.dll
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Repository\obj\Debug\netstandard2.0\Repository.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\bin\Debug\netstandard2.0\Repository.deps.json
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\bin\Debug\netstandard2.0\Repository.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\bin\Debug\netstandard2.0\Repository.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\bin\Debug\netstandard2.0\Contracts.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\bin\Debug\netstandard2.0\Entities.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\bin\Debug\netstandard2.0\Contracts.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\bin\Debug\netstandard2.0\Entities.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.csprojAssemblyReference.cache
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Repository\obj\Debug\netstandard2.0\Repository.pdb

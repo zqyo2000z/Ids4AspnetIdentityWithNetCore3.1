@@ -6,3 +6,11 @@ C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\obj\Debug\netstandard
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\bin\Debug\netstandard2.0\Entities.pdb
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Entities\obj\Debug\netstandard2.0\Entities.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\bin\Debug\netstandard2.0\Entities.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\bin\Debug\netstandard2.0\Entities.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Entities\obj\Debug\netstandard2.0\Entities.pdb

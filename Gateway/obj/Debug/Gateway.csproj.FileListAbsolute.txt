@@ -7,3 +7,12 @@ C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.Prop
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.csproj.GenerateResource.cache
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.exe
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Gateway\obj\Debug\Gateway.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\bin\Debug\Gateway.exe.config
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\bin\Debug\Gateway.exe
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\bin\Debug\Gateway.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.csprojAssemblyReference.cache
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.Gateway.resources
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.Properties.Resources.resources
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.csproj.GenerateResource.cache
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.exe
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.pdb

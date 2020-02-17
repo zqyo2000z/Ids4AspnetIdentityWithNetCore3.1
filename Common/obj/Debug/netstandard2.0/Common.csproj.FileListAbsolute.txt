@@ -9,3 +9,16 @@ C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.0\Common.csproj.CopyComplete
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.0\Common.dll
 C:\Users\zhouwork\source\repos\Qynet.GamePlatform\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\bin\Debug\netstandard2.0\Common.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\bin\Debug\netstandard2.0\Contracts.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\bin\Debug\netstandard2.0\Entities.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\bin\Debug\netstandard2.0\Contracts.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\bin\Debug\netstandard2.0\Entities.pdb
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Common.csproj.CopyComplete
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Common.dll
+D:\IIS\2020-2-11\项目5(study)\GameGateway\Common\obj\Debug\netstandard2.0\Common.pdb
