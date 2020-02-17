@@ -6237,11 +6237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Entities\\Entities.csproj",
+      "projectUniqueName": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Entities\\Entities.csproj",
+      "projectPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Entities\\obj\\",
+      "outputPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

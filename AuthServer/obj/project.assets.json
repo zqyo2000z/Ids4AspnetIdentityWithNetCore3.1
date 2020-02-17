@@ -8585,11 +8585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\AuthServer\\AuthServer.csproj",
+      "projectUniqueName": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\AuthServer\\AuthServer.csproj",
       "projectName": "AuthServer",
-      "projectPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\AuthServer\\AuthServer.csproj",
+      "projectPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\AuthServer\\AuthServer.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\AuthServer\\obj\\",
+      "outputPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\AuthServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

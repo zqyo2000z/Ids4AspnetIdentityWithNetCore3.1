@@ -6207,11 +6207,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Repository\\Repository.csproj",
+      "projectUniqueName": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Repository\\Repository.csproj",
+      "projectPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Repository\\obj\\",
+      "outputPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6227,11 +6227,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Contracts\\Contracts.csproj"
+            "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Contracts\\Contracts.csproj": {
+              "projectPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Contracts\\Contracts.csproj"
             },
-            "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Entities\\Entities.csproj"
+            "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\IIS\\2020-2-11\\项目正式\\GameGateway\\Entities\\Entities.csproj"
             }
           }
         }
