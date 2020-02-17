@@ -5098,11 +5098,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IIS\\2020-2-11\\项目5(study)\\GameGateway\\TenantServer\\TenantServer.csproj",
+      "projectUniqueName": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\TenantServer\\TenantServer.csproj",
       "projectName": "TenantServer",
-      "projectPath": "D:\\IIS\\2020-2-11\\项目5(study)\\GameGateway\\TenantServer\\TenantServer.csproj",
+      "projectPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\TenantServer\\TenantServer.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\IIS\\2020-2-11\\项目5(study)\\GameGateway\\TenantServer\\obj\\",
+      "outputPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\TenantServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5118,14 +5118,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\IIS\\2020-2-11\\项目5(study)\\GameGateway\\Common\\Common.csproj": {
-              "projectPath": "D:\\IIS\\2020-2-11\\项目5(study)\\GameGateway\\Common\\Common.csproj"
+            "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Common\\Common.csproj": {
+              "projectPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Common\\Common.csproj"
             },
-            "D:\\IIS\\2020-2-11\\项目5(study)\\GameGateway\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\IIS\\2020-2-11\\项目5(study)\\GameGateway\\Contracts\\Contracts.csproj"
+            "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Contracts\\Contracts.csproj": {
+              "projectPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Contracts\\Contracts.csproj"
             },
-            "D:\\IIS\\2020-2-11\\项目5(study)\\GameGateway\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\IIS\\2020-2-11\\项目5(study)\\GameGateway\\Entities\\Entities.csproj"
+            "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\IIS\\2020-2-11\\项目6(study)\\GameGateway\\Entities\\Entities.csproj"
             }
           }
         }

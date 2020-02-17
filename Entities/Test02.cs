@@ -5,6 +5,6 @@ using System.Text;
 namespace Entities
 {
     class Test02
-    {
+    {    
     }
 }
