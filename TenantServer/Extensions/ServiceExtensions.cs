@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Common.LoggerService;
+using Common.RedisHelper;
 using Contracts;
 using Entities;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,10 @@ namespace TenantServer.Extensions
 {
     public static class ServiceExtensions
     {
+        /// <summary>
+        /// 跨越
+        /// </summary>
+        /// <param name="services"></param>
         public static void ConfigureCors(this IServiceCollection services)
         {
             services.AddCors(options =>
@@ -28,6 +33,21 @@ namespace TenantServer.Extensions
             });
         }
 
+        /// <summary>
+        /// 配置Redis
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        public static void ConfigureRedis(this IServiceCollection services, IConfiguration configuration)
+        {
+            //全局注入Redis
+            services.AddSingleton<RedisHelper>(new RedisHelper(0,
+                configuration.GetSection("RedisConnectionString").Value));
+        }
+        /// <summary>
+        /// 配置Swagger
+        /// </summary>
+        /// <param name="services"></param>
         public static void ConfigureSwagger(this IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
@@ -42,7 +62,10 @@ namespace TenantServer.Extensions
             });
         }
 
-
+        /// <summary>
+        /// 配置日志
+        /// </summary>
+        /// <param name="services"></param>
         public static void ConfigureLoggerService(this IServiceCollection services)
         {
             services.AddSingleton<ILoggerManager, LoggerManager>();

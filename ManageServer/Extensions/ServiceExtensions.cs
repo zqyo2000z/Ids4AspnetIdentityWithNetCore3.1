@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using Common.LoggerService;
+using Common.RedisHelper;
 using Contracts;
 using Entities;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +23,18 @@ namespace ManageServer.Extensions
                         .AllowAnyHeader()
                         .AllowCredentials());
             });
+        }
+
+        /// <summary>
+        /// 配置Redis
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        public static void ConfigureRedis(this IServiceCollection services, IConfiguration configuration)
+        {
+            //全局注入Redis
+            services.AddSingleton<RedisHelper>(new RedisHelper(0,
+                configuration.GetSection("RedisConnectionString").Value));
         }
         public static void ConfigureSwagger(this IServiceCollection services)
         {

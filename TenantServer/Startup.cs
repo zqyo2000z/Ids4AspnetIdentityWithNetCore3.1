@@ -30,6 +30,7 @@ namespace TenantServer
         {
             services.ConfigureCors();
             services.ConfigureSwagger();
+            services.ConfigureRedis(Configuration);
             services.ConfigureLoggerService();
             services.ConfigureSqlServerService(Configuration);
             services.ConfigureRepositoryWrapper();

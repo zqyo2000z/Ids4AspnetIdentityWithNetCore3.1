@@ -54,6 +54,14 @@
             "NLog": {
               "target": "Package",
               "version": "[4.6.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
             }
           },
           "imports": [
