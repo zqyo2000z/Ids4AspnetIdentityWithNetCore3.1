@@ -4,5 +4,37 @@
         <name>TenantServer</name>
     </assembly>
     <members>
+        <member name="M:TenantServer.Controllers.ManagerIndexController.Get">
+            <summary>
+            订单测试
+            </summary>
+            <remarks>订单测试看看是否全部有效</remarks>
+            <returns></returns>
+        </member>
+        <member name="M:TenantServer.Extensions.ServiceExtensions.ConfigureCors(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            跨越
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:TenantServer.Extensions.ServiceExtensions.ConfigureRedis(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            配置Redis
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:TenantServer.Extensions.ServiceExtensions.ConfigureSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            配置Swagger
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:TenantServer.Extensions.ServiceExtensions.ConfigureLoggerService(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            配置日志
+            </summary>
+            <param name="services"></param>
+        </member>
     </members>
 </doc>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Contracts;
 using Entities;
@@ -15,7 +16,7 @@ namespace Repository
 
         public IEnumerable<Order> GetAllOrders()
         {
-            throw new NotImplementedException();
+            return FindAll().OrderBy(o => o.Id).ToList();
         }
     }
 }
