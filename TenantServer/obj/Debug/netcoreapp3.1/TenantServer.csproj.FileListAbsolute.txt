@@ -230,7 +230,6 @@ D:\多渠道兑换中心\GameGateway\TenantServer\bin\Debug\netcoreapp3.1\netcor
 D:\多渠道兑换中心\GameGateway\TenantServer\bin\Debug\netcoreapp3.1\netcoreapp3.1\Contracts.pdb
 D:\多渠道兑换中心\GameGateway\TenantServer\bin\Debug\netcoreapp3.1\netcoreapp3.1\Entities.pdb
 D:\多渠道兑换中心\GameGateway\TenantServer\bin\Debug\netcoreapp3.1\netcoreapp3.1\Repository.pdb
-D:\多渠道兑换中心\GameGateway\TenantServer\obj\Debug\netcoreapp3.1\TenantServer.MvcApplicationPartsAssemblyInfo.cs
 D:\多渠道兑换中心\GameGateway\TenantServer\obj\Debug\netcoreapp3.1\TenantServer.MvcApplicationPartsAssemblyInfo.cache
 D:\多渠道兑换中心\GameGateway\TenantServer\bin\Debug\netcoreapp3.1\netcoreapp3.1\Newtonsoft.Json.dll
 D:\多渠道兑换中心\GameGateway\TenantServer\bin\Debug\netcoreapp3.1\netcoreapp3.1\Pipelines.Sockets.Unofficial.dll
