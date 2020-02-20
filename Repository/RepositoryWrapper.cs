@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Contracts;
 using Contracts.Manager;
 using Entities;
@@ -20,9 +21,9 @@ namespace Repository
 
         public IOrderRepository Order => _order ?? (_order = new OrderRepository(_repoContext));
 
-        public void Save()
+        public async Task Save()
         {
-            _repoContext.SaveChanges();
+            await _repoContext.SaveChangesAsync();
         }
     }
 }

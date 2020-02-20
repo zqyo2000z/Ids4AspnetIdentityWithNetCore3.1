@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Entities.Models;
 
 namespace Contracts.Manager
 {
   public   interface IOrderRepository:IRepositoryBase<Order>
     {
-        IEnumerable<Order > GetAllOrders();
+         Task<IEnumerable<Order >> GetAllOrdersAsync();
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using Contracts;
 using Contracts.Manager;
 using Microsoft.AspNetCore.Mvc;
@@ -25,11 +26,11 @@ namespace TenantServer.Controllers
         /// <returns></returns>
         // GET: api/Index
         [HttpGet]
-        public IActionResult Get()
+        public async  Task<IActionResult> Get()
         {
             try
             {
-                var orders = _repository.Order.GetAllOrders();
+                var orders =await _repository.Order.GetAllOrdersAsync();
 
                 _logger.LogInfo($"Returned all orders from database.");
 
@@ -37,7 +38,7 @@ namespace TenantServer.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Something went wrong inside GetAllOrders action: {ex.Message}");
+                _logger.LogError($"Something went wrong inside GetAllOrdersAsync action: {ex.Message}");
                 return StatusCode(500, "Internal server error");
             }
         }

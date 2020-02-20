@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Contracts.Manager;
 
 namespace Contracts
@@ -9,6 +10,6 @@ namespace Contracts
     {
         IOrderRepository Order { get; }
 
-        void Save();
+        Task Save();
     }
 }
