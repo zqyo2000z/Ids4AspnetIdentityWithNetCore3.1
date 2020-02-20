@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Entities.Models
@@ -12,6 +13,7 @@ namespace Entities.Models
         public string Country { get; set; }
         public int ExpiresIn { get; set; }
         public string HeadImgUrl { get; set; }
+        
         public DateTime JoinDate { get; set; }
         public int MerchantId { get; set; }
         public string Nickname { get; set; }

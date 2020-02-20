@@ -1,5 +1,6 @@
 ﻿using System;
 using Contracts;
+using Contracts.Manager;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TenantServer.Controllers

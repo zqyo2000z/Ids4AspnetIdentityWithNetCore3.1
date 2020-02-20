@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Contracts;
+using Contracts.Manager;
 using Entities;
 using Entities.Models;
 

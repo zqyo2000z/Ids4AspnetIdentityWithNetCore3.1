@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Common.LoggerService;
 using Common.RedisHelper;
 using Contracts;
+using Contracts.Manager;
 using Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Entities.Models
@@ -7,7 +8,9 @@ namespace Entities.Models
    public  class Partition:IEntity
     {
         public int Id { get; set; }
+        
         public DateTime ChangeDate { get; set; }
+        
         public DateTime CreateDate { get; set; }
         
         public string DataFormat { get; set; }
@@ -23,6 +26,7 @@ namespace Entities.Models
         public bool State { get; set; }
         public string SuccessMark { get; set; }
         public int Type { get; set; }
+        
         public DateTime UseDate { get; set; }
         public string UseName { get; set; }
         public string Uuid { get; set; }

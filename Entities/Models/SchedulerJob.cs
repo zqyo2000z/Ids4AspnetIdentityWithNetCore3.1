@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Entities.Models
@@ -8,6 +9,7 @@ namespace Entities.Models
     {
         public int Id { get; set; }
         public string ClassName { get; set; }
+        
         public DateTime CreateDate { get; set; }
         public string CronExpression { get; set; }
         public string Description { get; set; }
