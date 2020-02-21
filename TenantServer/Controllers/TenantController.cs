@@ -32,7 +32,7 @@ namespace TenantServer.Controllers
                 account=SecurityUtility.FilterString(account);
                 nicKname=SecurityUtility.FilterString(nicKname);
                 qqNumber=SecurityUtility.FilterString(qqNumber);
-                var tenant = _repository.tenant.GetTenantList(settlementType, account, nicKname, qqNumber, state);
+                var tenant =await _repository.Tenant.GetTenantList(settlementType, account, nicKname, qqNumber, state);
                 return Ok(tenant);
             }
             catch(Exception ex)

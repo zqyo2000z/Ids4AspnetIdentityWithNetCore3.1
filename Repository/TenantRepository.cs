@@ -7,6 +7,7 @@ using System.Text;
 using System.Linq;
 using Entities.Models;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repository
 {
@@ -18,10 +19,9 @@ namespace Repository
         {
             _repositoryContext = repositoryContext;
         }
-        public async Task<IEnumerable<Merchant>> GetTenantList(int settlementType, string account, string nicKname, string qqNumber, int state)
+        public async Task<IEnumerable<Merchant>> GetTenantList(int settlementType, string account, string nickname, string qqNumber, int state)
         {
-            using (var result = _repositoryContext)
-            {
+           
                 IQueryable<Merchant> iqm = _repositoryContext.Merchants;
                 if(settlementType>0)
                 {
@@ -31,9 +31,9 @@ namespace Repository
                 {
                     iqm = iqm.Where(items => items.Account == account);
                 }
-                if (!string.IsNullOrEmpty(nicKname))
+                if (!string.IsNullOrEmpty(nickname))
                 {
-                    iqm = iqm.Where(items => items.Nickname == nicKname);
+                    iqm = iqm.Where(items => items.Nickname == nickname);
                 }
                 if (!string.IsNullOrEmpty(qqNumber))
                 {
@@ -43,8 +43,8 @@ namespace Repository
                 {
                     iqm = iqm.Where(items => items.State == state);
                 }   
-                return iqm.ToList();
-            }
+                return await iqm.ToListAsync();
+           
             
           
 

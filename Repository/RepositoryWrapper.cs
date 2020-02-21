@@ -26,7 +26,7 @@ namespace Repository
             await _repoContext.SaveChangesAsync();
         }
 
-        public ITenantRepository tenant => _tenant ?? (_tenant = new TenantRepository(_repoContext));
+        public ITenantRepository Tenant => _tenant ?? (_tenant = new TenantRepository(_repoContext));
 
 
     }

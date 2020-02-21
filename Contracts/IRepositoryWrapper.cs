@@ -12,7 +12,7 @@ namespace Contracts
 
         void Save();
 
-       ITenantRepository tenant { get; }
+       ITenantRepository Tenant { get; }
 
     }
 }
