@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.ide-wal
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -27,13 +28,19 @@ bld/
 [Oo]bj/
 [Ll]og/
 ManageServer/bin/
+ManageServer/obj/
 TenantServer/bin/
+TenantServer/obj/
 AuthServer/bin/
 AuthServer/obj/
 Common/bin/
+Common/obj/
 Entities/bin/
+Entities/obj/
 Repository/bin/
+Repository/obj/
 Gateway/bin/
+Gateway/obj/
 \.vs/Qynet.GamePlatform/
 # Visual Studio 2015/2017 cache/options directory
 .vs/
