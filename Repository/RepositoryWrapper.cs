@@ -14,7 +14,7 @@ namespace Repository
     {
         private readonly RepositoryContext _repoContext;
         private IOrderRepository _order;
-        private ITenantRepository _tenant;
+        private IMerchantRepository _merchant;
         public RepositoryWrapper(RepositoryContext repoContext)
         {
             _repoContext = repoContext;
@@ -27,7 +27,7 @@ namespace Repository
             await _repoContext.SaveChangesAsync();
         }
 
-        public ITenantRepository Tenant => _tenant ?? (_tenant = new TenantRepository(_repoContext));
+        public IMerchantRepository Merchant => _merchant ?? (_merchant = new MerchantRepository(_repoContext));
 
 
     }

@@ -13,7 +13,7 @@ namespace Contracts
 
         void Save();
 
-       ITenantRepository Tenant { get; }
+       IMerchantRepository Merchant { get; }
 
     }
 }
