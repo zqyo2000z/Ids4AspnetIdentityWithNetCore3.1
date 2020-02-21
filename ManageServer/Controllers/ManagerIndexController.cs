@@ -33,7 +33,7 @@ namespace ManageServer.Controllers
         {
             try
             {
-                var orders =await _repository.Order.GetAllOrdersAsync();
+                var orders =await _repository.Order.GetOrdersAsync();
 
                 _logger.LogInfo($"Returned all orders from database.");
 
@@ -41,7 +41,7 @@ namespace ManageServer.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Something went wrong inside GetAllOrdersAsync action: {ex.Message}");
+                _logger.LogError($"Something went wrong inside GetOrdersAsync action: {ex.Message}");
                 return StatusCode(500, "Internal server error");
             }
         }

@@ -2,7 +2,9 @@
 using System.Threading.Tasks;
 using Contracts;
 using Contracts.Manager;
+using Entities.DTO;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace TenantServer.Controllers
 {
@@ -30,7 +32,7 @@ namespace TenantServer.Controllers
         {
             try
             {
-                var orders =await _repository.Order.GetAllOrdersAsync();
+                var orders =await _repository.Order.GetOrdersAsync();
 
                 _logger.LogInfo($"Returned all orders from database.");
 
@@ -38,16 +40,34 @@ namespace TenantServer.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Something went wrong inside GetAllOrdersAsync action: {ex.Message}");
+                _logger.LogError($"Something went wrong inside GetOrdersAsync action: {ex.Message}");
                 return StatusCode(500, "Internal server error");
             }
         }
-
-        // GET: api/Index/5
+        /// <summary>
+        /// 分页查询测试
+        /// </summary>
+        /// <param name="orderParameters"></param>
+        /// <returns></returns>
+        // GET: api/Index
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        public async Task<IActionResult> Get([FromQuery]OrderParameters orderParameters)
         {
-            return "value";
+            var orders =await _repository.Order.GetOrdersAsync(orderParameters);
+            var metadata = new
+            {
+                orders.TotalCount,
+                orders.PageSize,
+                orders.CurrentPage,
+                orders.TotalPages,
+                orders.HasNext,
+                orders.HasPrevious
+
+            };
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(metadata));
+            _logger.LogInfo($"Returned {orders.TotalCount} orders from database.");
+
+            return Ok(orders);
         }
 
         // POST: api/Index

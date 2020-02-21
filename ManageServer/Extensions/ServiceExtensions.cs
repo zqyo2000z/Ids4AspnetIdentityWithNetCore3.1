@@ -19,10 +19,11 @@ namespace ManageServer.Extensions
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
-                    builder => builder.AllowAnyOrigin()
+                    builder => builder.WithOrigins("http://localhost:5003", "https://localhost:5001")
                         .AllowAnyMethod()
                         .AllowAnyHeader()
-                        .AllowCredentials());
+                        .AllowCredentials()
+                        .WithExposedHeaders(new string[] { "X-Pagination" }));
             });
         }
 
