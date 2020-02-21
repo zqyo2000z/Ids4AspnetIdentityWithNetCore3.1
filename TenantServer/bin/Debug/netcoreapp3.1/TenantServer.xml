@@ -11,6 +11,13 @@
             <remarks>订单测试看看是否全部有效</remarks>
             <returns></returns>
         </member>
+        <member name="M:TenantServer.Controllers.ManagerIndexController.Get(Entities.DTO.OrderParameters)">
+            <summary>
+            分页查询测试
+            </summary>
+            <param name="orderParameters"></param>
+            <returns></returns>
+        </member>
         <member name="M:TenantServer.Extensions.ServiceExtensions.ConfigureCors(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
             跨越

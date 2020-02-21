@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Entities.Models
@@ -11,16 +12,21 @@ namespace Entities.Models
         public decimal AgentProfit { get; set; }
 
         public decimal Amount { get; set; }
-
+        public decimal PayAmount { get; set; }
         public string CardNumber { get; set; }
         public string Description { get; set; }
         public decimal GiveAmount { get; set; }
         public int GroupId { get; set; }
 
         public decimal MerchantProfit { get; set; }
+       
         public DateTime OrderDate { get; set; }
+
+        public DateTime?  PayDate { get; set; }
         public string OrderNumber { get; set; }
         public decimal PlatformProfit { get; set; }
+        public string  PlayerAccount { get; set; }
+        public string   PlayerIp { get; set; }
         public string PlayerPhone { get; set; }
         public string PlayerQq { get; set; }
         public decimal RedPacketAmount { get; set; }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Contracts;
+using Contracts.Manager;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -28,11 +29,11 @@ namespace ManageServer.Controllers
         /// <returns></returns>
         // GET: api/Index
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
             try
             {
-                var orders = _repository.Order.GetAllOrders();
+                var orders =await _repository.Order.GetOrdersAsync();
 
                 _logger.LogInfo($"Returned all orders from database.");
 
@@ -40,7 +41,7 @@ namespace ManageServer.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Something went wrong inside GetAllOrders action: {ex.Message}");
+                _logger.LogError($"Something went wrong inside GetOrdersAsync action: {ex.Message}");
                 return StatusCode(500, "Internal server error");
             }
         }

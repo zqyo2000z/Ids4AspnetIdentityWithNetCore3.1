@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using Contracts;
+using Contracts.Manager;
 using Entities;
 using Entities.Models;
 
@@ -20,11 +21,9 @@ namespace Repository
 
         public IOrderRepository Order => _order ?? (_order = new OrderRepository(_repoContext));
 
- 
-
         public void Save()
         {
-            _repoContext.SaveChanges();
+            await _repoContext.SaveChangesAsync();
         }
 
         public ITenantRepository tenant => _tenant ?? (_tenant = new TenantRepository(_repoContext));

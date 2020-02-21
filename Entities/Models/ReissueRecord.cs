@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Entities.Models
@@ -11,6 +12,7 @@ namespace Entities.Models
         public decimal Amount { get; set; }
         public string PlayerName { get; set; }
         public string PlayerAccount { get; set; }
+        
         public DateTime ReissueDate { get; set; }
         public string SerialNumber { get; set; }
         public bool Type { get; set; }

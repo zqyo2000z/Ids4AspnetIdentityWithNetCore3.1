@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Common.LoggerService;
 using Common.RedisHelper;
 using Contracts;
+using Contracts.Manager;
 using Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -26,10 +27,10 @@ namespace TenantServer.Extensions
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
-                    builder => builder.AllowAnyOrigin()
+                    builder => builder.WithOrigins("http://localhost:5003", "https://localhost:5001")
                         .AllowAnyMethod()
                         .AllowAnyHeader()
-                        .AllowCredentials());
+                        .AllowCredentials().WithExposedHeaders("X-Pagination"));
             });
         }
 
