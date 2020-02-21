@@ -21,7 +21,7 @@ namespace Repository
 
         public IOrderRepository Order => _order ?? (_order = new OrderRepository(_repoContext));
 
-        public void Save()
+        public async  void Save()
         {
             await _repoContext.SaveChangesAsync();
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -16,7 +17,6 @@ namespace Entities.Models
         public DateTime FinalDate { get; set; }
         public bool IsIps { get; set; }
         public bool IsLogger { get; set; }
-        
         public DateTime JoinDate { get; set; }
         public bool LeaveState { get; set; }
         public string Nickname { get; set; }

@@ -24,3 +24,4 @@ D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.Properties.Resourc
 D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.csproj.GenerateResource.cache
 D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.exe
 D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.pdb
+D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.csprojAssemblyReference.cache

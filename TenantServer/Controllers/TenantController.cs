@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Contracts;
+using Contracts.Manager;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
-
+using Common;
 
 namespace TenantServer.Controllers
 {
@@ -28,6 +29,9 @@ namespace TenantServer.Controllers
         {
             try
             {
+                account=SecurityUtility.FilterString(account);
+                nicKname=SecurityUtility.FilterString(nicKname);
+                qqNumber=SecurityUtility.FilterString(qqNumber);
                 var tenant = _repository.tenant.GetTenantList(settlementType, account, nicKname, qqNumber, state);
                 return Ok(tenant);
             }

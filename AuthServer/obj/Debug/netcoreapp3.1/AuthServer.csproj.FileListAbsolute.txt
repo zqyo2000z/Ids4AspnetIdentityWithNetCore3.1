@@ -765,3 +765,4 @@ D:\IIS\2020-2-11\项目\GameGateway\AuthServer\obj\Debug\netcoreapp3.1\AuthServe
 D:\IIS\2020-2-11\项目\GameGateway\AuthServer\obj\Debug\netcoreapp3.1\AuthServer.csproj.CopyComplete
 D:\IIS\2020-2-11\项目\GameGateway\AuthServer\obj\Debug\netcoreapp3.1\AuthServer.dll
 D:\IIS\2020-2-11\项目\GameGateway\AuthServer\obj\Debug\netcoreapp3.1\AuthServer.pdb
+D:\IIS\2020-2-11\项目\GameGateway\AuthServer\obj\Debug\netcoreapp3.1\AuthServer.csprojAssemblyReference.cache

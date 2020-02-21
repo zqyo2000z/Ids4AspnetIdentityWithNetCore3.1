@@ -11,5 +11,8 @@ namespace Contracts
         IOrderRepository Order { get; }
 
         void Save();
+
+       ITenantRepository tenant { get; }
+
     }
 }
