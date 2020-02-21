@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Entities.Models;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Entities.Models;
 
-namespace Contracts
+namespace Contracts.Tenant
 {
     public interface ITenantRepository
     {

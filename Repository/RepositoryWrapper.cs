@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Contracts;
 using Contracts.Manager;
+using Contracts.Tenant;
 using Entities;
 using Entities.Models;
 

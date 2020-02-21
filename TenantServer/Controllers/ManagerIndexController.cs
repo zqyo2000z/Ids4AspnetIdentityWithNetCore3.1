@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Contracts;
+using Contracts.Common;
 using Contracts.Manager;
 using Entities.DTO;
 using Microsoft.AspNetCore.Mvc;

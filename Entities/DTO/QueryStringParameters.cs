@@ -1,4 +1,4 @@
-﻿namespace Entities.Models
+﻿namespace Entities.DTO
 {
 	public abstract class QueryStringParameters
 	{

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Contracts;
+using Contracts.Common;
 using Contracts.Manager;
 using NLog;
 

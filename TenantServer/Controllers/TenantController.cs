@@ -7,6 +7,7 @@ using Contracts.Manager;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Common;
+using Contracts.Common;
 
 namespace TenantServer.Controllers
 {
