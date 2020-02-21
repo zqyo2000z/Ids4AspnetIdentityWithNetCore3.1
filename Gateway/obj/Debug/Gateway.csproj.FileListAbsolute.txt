@@ -16,3 +16,11 @@ D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.Properties
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.csproj.GenerateResource.cache
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.exe
 D:\IIS\2020-2-11\项目5(study)\GameGateway\Gateway\obj\Debug\Gateway.pdb
+D:\IIS\2020-2-11\项目\GameGateway\Gateway\bin\Debug\Gateway.exe.config
+D:\IIS\2020-2-11\项目\GameGateway\Gateway\bin\Debug\Gateway.exe
+D:\IIS\2020-2-11\项目\GameGateway\Gateway\bin\Debug\Gateway.pdb
+D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.Gateway.resources
+D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.Properties.Resources.resources
+D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.csproj.GenerateResource.cache
+D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.exe
+D:\IIS\2020-2-11\项目\GameGateway\Gateway\obj\Debug\Gateway.pdb

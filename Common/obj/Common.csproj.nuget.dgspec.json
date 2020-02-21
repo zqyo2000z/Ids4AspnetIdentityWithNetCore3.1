@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\多渠道兑换中心\\GameGateway\\Common\\Common.csproj": {}
+    "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Common\\Common.csproj": {}
   },
   "projects": {
-    "D:\\多渠道兑换中心\\GameGateway\\Common\\Common.csproj": {
+    "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\多渠道兑换中心\\GameGateway\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\多渠道兑换中心\\GameGateway\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\zhouwork\\.nuget\\packages\\",
-        "outputPath": "D:\\多渠道兑换中心\\GameGateway\\Common\\obj\\",
+        "projectPath": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zhouwork\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +27,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\多渠道兑换中心\\GameGateway\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\多渠道兑换中心\\GameGateway\\Contracts\\Contracts.csproj"
+              "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -77,20 +74,17 @@
         }
       }
     },
-    "D:\\多渠道兑换中心\\GameGateway\\Contracts\\Contracts.csproj": {
+    "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\多渠道兑换中心\\GameGateway\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "D:\\多渠道兑换中心\\GameGateway\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\zhouwork\\.nuget\\packages\\",
-        "outputPath": "D:\\多渠道兑换中心\\GameGateway\\Contracts\\obj\\",
+        "projectPath": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zhouwork\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +97,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\多渠道兑换中心\\GameGateway\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\多渠道兑换中心\\GameGateway\\Entities\\Entities.csproj"
+              "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Entities\\Entities.csproj"
               }
             }
           }
@@ -117,6 +111,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -136,20 +136,17 @@
         }
       }
     },
-    "D:\\多渠道兑换中心\\GameGateway\\Entities\\Entities.csproj": {
+    "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\多渠道兑换中心\\GameGateway\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\多渠道兑换中心\\GameGateway\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\zhouwork\\.nuget\\packages\\",
-        "outputPath": "D:\\多渠道兑换中心\\GameGateway\\Entities\\obj\\",
+        "projectPath": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\IIS\\2020-2-11\\项目\\GameGateway\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zhouwork\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
