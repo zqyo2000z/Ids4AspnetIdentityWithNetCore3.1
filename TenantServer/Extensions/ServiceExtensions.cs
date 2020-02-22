@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Common.LoggerService;
 using Common.RedisHelper;
@@ -59,7 +60,9 @@ namespace TenantServer.Extensions
                 var commentsFileName = "TenantServer.xml";
                 var xmlPath = Path.Combine(basePath, commentsFileName);
                 c.IncludeXmlComments(xmlPath);
-
+                //var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                //var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                //c.IncludeXmlComments(xmlPath);
                 c.DocInclusionPredicate((docName, description) => true);
             });
         }

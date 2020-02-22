@@ -4,6 +4,7 @@ using Contracts;
 using Contracts.Common;
 using Contracts.Manager;
 using Entities.DTO;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -25,11 +26,25 @@ namespace TenantServer.Controllers
         /// <summary>
         /// 订单测试
         /// </summary>
-        /// <remarks>订单测试看看是否全部有效</remarks>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /Todo
+        ///     {
+        ///        "id": 1,
+        ///        "name": "Item1",
+        ///        "isComplete": true
+        ///     }
+        ///
+        /// </remarks>
         /// <returns></returns>
-        // GET: api/Index
+        /// <response code="200">返回成功的示例</response>
+        /// <response code="400">返回失败显示的内容</response> 
+
         [HttpGet]
-        public async  Task<IActionResult> Get()
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async  Task<IActionResult> GetOrders()
         {
             try
             {
@@ -45,14 +60,18 @@ namespace TenantServer.Controllers
                 return StatusCode(500, "Internal server error");
             }
         }
+
         /// <summary>
-        /// 分页查询测试
+        /// 查询分页测试
         /// </summary>
         /// <param name="orderParameters"></param>
         /// <returns></returns>
-        // GET: api/Index
-        [HttpGet("{id}", Name = "Get")]
-        public async Task<IActionResult> Get([FromQuery]OrderParameters orderParameters)
+        /// <response code="200">返回成功的示例</response>
+        /// <response code="400">返回失败显示的内容</response> 
+        [HttpGet("GetPages")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetPages([FromQuery]OrderParameters orderParameters)
         {
             var orders =await _repository.Order.GetOrdersAsync(orderParameters);
             var metadata = new
@@ -71,22 +90,6 @@ namespace TenantServer.Controllers
             return Ok(orders);
         }
 
-        // POST: api/Index
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT: api/Index/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+      
     }
 }
