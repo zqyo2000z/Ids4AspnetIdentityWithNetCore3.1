@@ -26,21 +26,16 @@ namespace TenantServer.Controllers
 
         [Route("GetTenantList")]
         [HttpGet]
-        public async Task<IActionResult> GetTenantList(int settlementType, string account, string nicKname, string qqNumber, int state)
+        public async Task<IActionResult> GetTenantList(int settlementType, string account, string nickname, string qqNumber, int state)
         {
-            try
-            {
+           
                 account=SecurityUtility.FilterString(account);
-                nicKname=SecurityUtility.FilterString(nicKname);
+                nickname=SecurityUtility.FilterString(nickname);
                 qqNumber=SecurityUtility.FilterString(qqNumber);
-                var tenant =await _repository.Merchant.GetTenantList(settlementType, account, nicKname, qqNumber, state);
+                var tenant =await _repository.Merchant.GetTenantList(settlementType, account, nickname, qqNumber, state);
                 return Ok(tenant);
-            }
-            catch(Exception ex)
-            {
-                _logger.LogError("TenantController下GetTenantList函数出现代码错误：" + ex.ToString());
-                return StatusCode(500, "代码错误");
-            }
+            
+           
             
         }
     }
