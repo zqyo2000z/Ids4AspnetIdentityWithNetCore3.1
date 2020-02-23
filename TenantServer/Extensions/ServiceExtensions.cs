@@ -5,11 +5,13 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using Common.LoggerService;
+using Common.MailKit;
 using Common.RedisHelper;
 using Contracts;
 using Contracts.Common;
 using Contracts.Manager;
 using Entities;
+using Entities.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -76,6 +78,10 @@ namespace TenantServer.Extensions
             services.AddSingleton<ILoggerManager, LoggerManager>();
         }
 
+        public static void ConfigureMail(this IServiceCollection services,MailKitConfig mailKitConfig)
+        {
+            services.AddSingleton(typeof(MailKitManager), new MailKitManager(mailKitConfig));
+        }
         public static void ConfigureSqlServerService(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<RepositoryContext>(options =>

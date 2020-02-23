@@ -1,0 +1,10 @@
+﻿{
+  "mailkit": {
+    "Host": "smtp.qq.com",
+    "Port": 465,
+    "UseSsl": true,
+    "UserName": "群鹰网络",
+    "UserAddress": "7589848@qq.com",
+    "Password": "cgorkuekgannbjji"
+  }
+}

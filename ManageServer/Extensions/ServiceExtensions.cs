@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using Common.LoggerService;
+using Common.MailKit;
 using Common.RedisHelper;
 using Contracts;
 using Contracts.Common;
@@ -52,6 +53,19 @@ namespace ManageServer.Extensions
                 c.DocInclusionPredicate((docName, description) => true);
             });
         }
+        /// <summary>
+        /// 配置邮件服务
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="mailKitConfig"></param>
+        public static void ConfigureMail(this IServiceCollection services, MailKitConfig mailKitConfig)
+        {
+            services.AddSingleton(typeof(MailKitManager), new MailKitManager(mailKitConfig));
+        }
+        /// <summary>
+        /// 配置日志服务
+        /// </summary>
+        /// <param name="services"></param>
         public static void ConfigureLoggerService(this IServiceCollection services)
         {
             services.AddSingleton<ILoggerManager, LoggerManager>();

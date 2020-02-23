@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Common.MailKit;
+using Entities.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -34,6 +36,8 @@ namespace TenantServer
             services.ConfigureLoggerService();
             services.ConfigureSqlServerService(Configuration);
             services.ConfigureRepositoryWrapper();
+            var mailConfig= JsonConfigurationReader.GetAppSettings<MailKitConfig>("mailkit", Path.Combine("Configs", "mailserver.json"));
+            services.ConfigureMail(mailConfig);
             services.AddControllers();
         }
 
